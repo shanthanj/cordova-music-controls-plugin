@@ -168,10 +168,10 @@ public class MusicControlsNotification {
 		if(usePlayingIcon){
 			if (infos.isPlaying){
 				//builder.setSmallIcon(this.getResourceId(infos.playIcon, android.R.drawable.ic_media_play));
-				builder.setSmallIcon(context.getResources().getIdentifier("appicon", "drawable", context.getPackageName()));
+				builder.setSmallIcon(context.getResources().getIdentifier("yugam", "drawable", context.getPackageName()));
 			} else {
 				//builder.setSmallIcon(this.getResourceId(infos.pauseIcon, android.R.drawable.ic_media_pause));
-				builder.setSmallIcon(context.getResources().getIdentifier("appicon", "drawable", context.getPackageName()));
+				builder.setSmallIcon(context.getResources().getIdentifier("yugam", "drawable", context.getPackageName()));
 			}
 		}
 
